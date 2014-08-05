@@ -9,5 +9,18 @@
 
 ## usage
 
-    git clone
+    git clone https://github.com/clonn/fig-node.git fig-node
+    cd fig-node
+    fig up -d
 
+then you will see message below,
+
+     Recreating fignode_web_1...
+
+## test
+
+assume that did not set $USER/.docker-osx/defaults. settings are default value.
+you can try this.
+
+     curl localdocker:3000
+     #show: hello world
